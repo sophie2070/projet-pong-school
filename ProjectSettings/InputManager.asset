@@ -7,8 +7,8 @@ InputManager:
   m_Axes:
   - serializedVersion: 3
     m_Name: Player 1
-    descriptiveName: 
-    descriptiveNegativeName: 
+    descriptiveName: vertical
+    descriptiveNegativeName: vertical
     negativeButton: z
     positiveButton: a
     altNegativeButton: a
@@ -23,10 +23,10 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Player2
-    descriptiveName: 
-    descriptiveNegativeName: 
-    negativeButton: m
-    positiveButton: k
+    descriptiveName: vertical
+    descriptiveNegativeName: vertical
+    negativeButton: ','
+    positiveButton: l
     altNegativeButton: s
     altPositiveButton: w
     gravity: 3
