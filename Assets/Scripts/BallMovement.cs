@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class BallMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private float trajectory = 2f;
     void Start()
     {
-        
+        transform.position = transform.position + new Vector3(0 * trajectory * Time.deltaTime, 0 * trajectory *Time.deltaTime);
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        if ()
     }
 }
