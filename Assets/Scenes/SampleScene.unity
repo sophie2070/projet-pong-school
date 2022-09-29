@@ -536,7 +536,7 @@ GameObject:
   - component: {fileID: 1131647975}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Wall
+  m_TagString: RightBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1313,7 +1313,7 @@ GameObject:
   - component: {fileID: 1801956642}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Wall
+  m_TagString: LeftBarrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wall
   - Paddle
+  - RightBarrier
+  - LeftBarrier
   layers:
   - Default
   - TransparentFX
