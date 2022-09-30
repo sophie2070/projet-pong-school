@@ -18,7 +18,7 @@ public class ScoreScript : MonoBehaviour
 
     public void Addp1Score()
     {
-    
+        
     }
 
     public void Addp2Score()

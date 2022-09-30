@@ -5,7 +5,6 @@ using UnityEngine;
 public class BallMovement : MonoBehaviour
 {
     public float MoveSpeed = 4;
-    //private float trajectory = 4f;
     public Vector2 direction = new Vector2(1, 1);
 
     void Start()

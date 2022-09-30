@@ -9,10 +9,10 @@ InputManager:
     m_Name: Player1
     descriptiveName: vertical
     descriptiveNegativeName: vertical
-    negativeButton: z
-    positiveButton: a
-    altNegativeButton: a
-    altPositiveButton: d
+    negativeButton: s
+    positiveButton: w
+    altNegativeButton: 
+    altPositiveButton: 
     gravity: 3
     dead: 0.001
     sensitivity: 9
@@ -25,10 +25,10 @@ InputManager:
     m_Name: Player2
     descriptiveName: vertical
     descriptiveNegativeName: vertical
-    negativeButton: ','
-    positiveButton: l
-    altNegativeButton: s
-    altPositiveButton: w
+    negativeButton: l
+    positiveButton: o
+    altNegativeButton: 
+    altPositiveButton: 
     gravity: 3
     dead: 0.001
     sensitivity: 9
@@ -41,10 +41,10 @@ InputManager:
     m_Name: Horizontal
     descriptiveName: Horizontal
     descriptiveNegativeName: 
-    negativeButton: ','
-    positiveButton: l
-    altNegativeButton: s
-    altPositiveButton: w
+    negativeButton: 
+    positiveButton: 
+    altNegativeButton: 
+    altPositiveButton: 
     gravity: 3
     dead: 0.001
     sensitivity: 9
@@ -57,10 +57,10 @@ InputManager:
     m_Name: Vertical
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: ','
-    positiveButton: l
-    altNegativeButton: s
-    altPositiveButton: w
+    negativeButton: 
+    positiveButton: 
+    altNegativeButton: 
+    altPositiveButton: 
     gravity: 3
     dead: 0.001
     sensitivity: 9
@@ -73,10 +73,10 @@ InputManager:
     m_Name: Submit
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: ','
-    positiveButton: l
-    altNegativeButton: s
-    altPositiveButton: w
+    negativeButton: 
+    positiveButton: 
+    altNegativeButton: 
+    altPositiveButton: 
     gravity: 3
     dead: 0.001
     sensitivity: 9
@@ -89,10 +89,10 @@ InputManager:
     m_Name: Cancel
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: ','
-    positiveButton: l
-    altNegativeButton: s
-    altPositiveButton: w
+    negativeButton: 
+    positiveButton: 
+    altNegativeButton: 
+    altPositiveButton: 
     gravity: 3
     dead: 0.001
     sensitivity: 9
