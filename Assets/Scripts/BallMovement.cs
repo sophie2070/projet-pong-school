@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class BallMovement : MonoBehaviour
 {
-    public float MoveSpeed = 4;
+    private float MoveSpeed = 5f;
     public Vector2 direction = new Vector2(1, 1);
 
     void Start()
     {
-     
+        direction = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+        if (direction.x > -0.1f && direction.x < 0.1f)
+        {
+            direction = new Vector2(0.5f, direction.y);
+        }
+        direction = direction.normalized;
     }
+
 
 
     void Update()
