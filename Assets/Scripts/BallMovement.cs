@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallMovement : MonoBehaviour
 {
-    private float MoveSpeed = 5f;
+    private float MoveSpeed = 7f;
     public Vector2 direction = new Vector2(1, 1);
 
     void Start()
@@ -35,6 +35,7 @@ public class BallMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Paddle")) 
         {
             direction = Vector2.Reflect(direction, collision.contacts[0].normal);
+            
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

@@ -11,38 +11,18 @@ public class ScoreScript : MonoBehaviour
     private int scoreP2 = 0;
     public Text scorePLayer1;
     public Text scorePLayer2;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
-
     public void Addp1Score()
     {
-        
         {
            scoreP1++;
             scorePLayer1.text = scoreP1.ToString();
-           
         }
     }
-
     public void Addp2Score()
     {
-        
         {
             scoreP2++;
             scorePLayer2.text = scoreP2.ToString();
-
         }
     }
-
 }
